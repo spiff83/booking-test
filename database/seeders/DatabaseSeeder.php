@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
 		$this->call([
 			AppSettingSeeder::class,
 			ServiceSeeder::class,
+			ServiceVariantSeeder::class,
 			ServiceScheduleSeeder::class,
 			DemoBookingSeeder::class,
 		]);
